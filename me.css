@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     padding: 0;
@@ -106,3 +108,23 @@ p {
 	padding: 0px;
 	
 }
+
+/* Adjustments for smaller screens */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px 20px; /* Increase padding for smaller screens */
+    }
+    nav {
+        text-align: center; /* Center-align links */
+    }
+    nav a {
+        display: block; /* Make links block elements */
+        margin: 5px 0; /* Reduce margin between links */
+        background-color: black; /* Change background color */
+        color: white; /* Change text color */
+        padding: 10px 20px; /* Adjust padding */
+        border-radius: 5px; /* Add border radius */
+        text-decoration: none; /* Remove underline */
+    }
+}
+
